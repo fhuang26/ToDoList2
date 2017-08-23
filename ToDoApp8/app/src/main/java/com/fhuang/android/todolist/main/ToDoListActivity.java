@@ -68,7 +68,7 @@ public class ToDoListActivity extends AppCompatActivity implements LoaderManager
 
     // activeNetwork = cm.getActiveNetworkInfo();
     isConnected = isNetworkConnected();
-    setContentView(R.layout.activity_my_stocks);
+    setContentView(R.layout.activity_my_list);
     // The intent service is for executing immediate pulls from the Yahoo API
     // GCMTaskService can only schedule tasks, they cannot execute immediately
     mServiceIntent = new Intent(this, ItemIntentService.class);
