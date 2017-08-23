@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\fhuan\\Documents\\Felix\\fb Android\\ToDoList_Aug2017\\ToDoList2\\ToDoApp8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\fhuan\\.android\\build-cache\\841d523bcc9779eaeac56d94b4ae4d516018e9ef\\output\\res\\values-port\\values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]
