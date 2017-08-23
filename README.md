@@ -1,7 +1,7 @@
 ## ToDoList 
 This Android app helps users to maintain a list of ToDo items. To load it into Android studio, we can do 'Open File or Project' and pick ToDoList2/ToDoApp8.
 * By FloatingActionButton, a user can click (+) and add a ToDo item. It is floating above the UI, and hides on scroll as the list has more than 9 items. By floating add button, this app provides wider view for useful information - item content, due date, and priority.
-* DialogFragment is used in main/ItemDialogFragment.java. By that, a user can add or edit a ToDo item. In this pop-up dialog, a user can edit item content, pick a date (month, day), and select priority (low, medium, high).
+* DialogFragment is used in main/ItemDialogFragment.java. By that, a user can add or edit a ToDo item. In this pop-up dialog, a user can edit item content, pick a due date (month, day), and select priority (low, medium, high).
 * Spinner is used to enable users to pick month, day, and priority for ToDo items.
 * A user can tap an item to begin to edit it.
 * After a user finishes adding/editing an item, soft keyboard goes away.
