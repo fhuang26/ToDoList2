@@ -13,7 +13,8 @@ This Android app helps users to maintain a list of ToDo items. To load it into A
 * Data is persisted by net.simonvt.schematic as https://github.com/SimonVT/schematic . This automatically generates a ContentProvider backed by an SQLite database. By this, users can persist ToDo items and retrieve them properly on app restart.
 The following are added to dependencies in build.gradle :
 (1) apt 'net.simonvt.schematic:schematic-compiler:0.6.3',
-(2) compile 'net.simonvt.schematic:schematic:0.6.3'
+(2) compile 'net.simonvt.schematic:schematic:0.6.3'.
 * [Question 1. Compare Android's approach to layouts and other GUI.] Android provides good platform to make flexible and attractive layouts on smart phones. Android app on smart phone has more limited space to display layouts than usual browser or applications on PC or MAC. Android provides rich resources to make GUI display, data processing, web access, and event-handling work together nicely and smoothly. For example, an adapter decouples data processing and GUI display, which is good for programming.
 * [Question 3, more challenging issues] The following issues in this app consumes more of my resource to get them right: (1) RecyclerView and RecyclerView.Adapter, (2) FloatingActionButton with anchor RecyclerView, (3) how to handle returned values from a DialogFragment properly and effectively, (4) to persist data by net.simonvt.schematic backed by an SQLite database, (5) to do better code reuse and sharing by using a DialogFragment for both adding and editing ToDo items.
 * README2.gif is created with LiceCap to walk through (illustrate ?)essential operations of this ToDoList app.
+
