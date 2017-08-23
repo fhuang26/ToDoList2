@@ -3,7 +3,7 @@ This Android app helps users to maintain a list of ToDo items. To load it into A
 * By FloatingActionButton, a user can click (+) and add a ToDo item. It is floating above the UI, and hide on scroll as the list has more than 9 items. By floating add button, this app provides wider view for useful information - item content, due date, and priority.
 * DialogFragment is used in main/ItemDialogFragment.java. By that, a user can add or edit a ToDo item. In this pop-up dialog, a user can edit item content, pick a date (month, day), and select priority (low, medium, high).
 * Spinner is used to enable users to pick month, day, and priority for ToDo items.
-* A user can click an item to begin to edit it.
+* A user can tap an item to begin to edit it.
 * To remove an item, a user can swipe right or swipe left on that item. RemovalDialog is implemented in adapter/ItemCursorAdapter.java to ask a user to confirm removal of an item.
 * RecyclerView is used to display the list of ToDo items in main/ToDoListActivity.java and res/layout/activity_my_list.xml.
 * RecyclerView.Adapter is used in adapter/CursorRecyclerViewApapter.java.
