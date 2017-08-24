@@ -41,7 +41,7 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** Android provides good platform to make flexible and attractive layouts on smart phones. Android app on smart phone has limited space for displaying layouts compared to usual browser or applications on PC or MAC. Android provides rich resources to make GUI display, data processing, web access, and event-handling work together nicely and smoothly. For example, an adapter decouples data processing and GUI display, which is good for programming.
+**Answer:** Android provides good platform to make flexible and attractive layouts on smart phones. Android app on smart phone has limited space for displaying layouts compared to usual browser or applications on PC or MAC. Android provides rich resources to make GUI display, data processing, web access, and event-handling work together nicely and smoothly. For example, an adapter in Android provides a bridge between UI view and the underlying data, and it decouples data processing and GUI display, which is good for programming.
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
