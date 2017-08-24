@@ -49,7 +49,6 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 ## Notes
 
-Describe any challenges encountered while building the app.
 The following issues required more work to get them right: (1) RecyclerView and RecyclerView.Adapter, (2) FloatingActionButton with anchor RecyclerView, (3) how to handle returned values from a DialogFragment properly and effectively, (4) to persist data by net.simonvt.schematic which automatically generates a ContentProvider backed by an SQLite database, (5) to do better code reuse and sharing by using a DialogFragment for both adding and editing ToDo items.
 
 ## License
@@ -87,4 +86,5 @@ The following are added to dependencies in build.gradle :
 * [Question 1. Compare Android's approach to layouts and other GUI.] Android provides good platform to make flexible and attractive layouts on smart phones. Android app on smart phone has limited space for displaying layouts compared to usual browser or applications on PC or MAC. Android provides rich resources to make GUI display, data processing, web access, and event-handling work together nicely and smoothly. For example, an adapter decouples data processing and GUI display, which is good for programming.
 * [Question 3. Describe any challenges encountered.] The following issues required more work to get them right: (1) RecyclerView and RecyclerView.Adapter, (2) FloatingActionButton with anchor RecyclerView, (3) how to handle returned values from a DialogFragment properly and effectively, (4) to persist data by net.simonvt.schematic which automatically generates a ContentProvider backed by an SQLite database, (5) to do better code reuse and sharing by using a DialogFragment for both adding and editing ToDo items.
 * README2.gif is created with LiceCap to illustrate the essential operations of this ToDoList app.
+
 
